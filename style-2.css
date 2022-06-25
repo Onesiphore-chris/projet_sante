@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+body{
+    background-color: rgb(90, 90, 157);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+form{
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
+form h1{
+    font-size: 20px;
+}
+form .separation{
+    width: 100%;
+    height: 1px;
+    background-color: #747cdf;
+}
+form .corps-formulaire{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+form .corps-formulaire .group{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+form .corps-formulaire .left .group .input{
+    margin-top: 5px;
+    padding:20px 10px 20px 40px;
+    border: 1px solid #c9c9c9;
+    outline-color: #747cdf;
+    border-radius: 5px;
+}
+form .corps-formulaire .left .group i{
+    position: absolute;
+    left: 0;
+    top: 25px;
+    padding: 9px 8px ;
+
+}
