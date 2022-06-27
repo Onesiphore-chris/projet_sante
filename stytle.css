@@ -6,6 +6,11 @@
     text-decoration: none;
     font-family: 'verdana';
 }
+.img{
+    width: 100%;
+    height: 200px;
+        background: url('image/national-cancer-institute-oCLuFi9GYNA-unsplash.jpg') no-repeat center/cover;
+}
 .sidebar{
     width: 300px;
     position: fixed;
@@ -52,8 +57,14 @@
 }
 .sidebar-menu a.telechargement{
     top: 30px;
-    visibility: hidden;
+    display: none;
 }
+
+#hover:hover a.telechargement{
+    display: block;
+}
+
+
 .content{
     transition: margin-left 300ms;
     margin-left: 14%;
